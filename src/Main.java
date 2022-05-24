@@ -18,10 +18,11 @@ public class Main {
 
 
         MoteurInference moteurInference = new MoteurInference();
-        System.out.println(moteurInference.chainageAvant(BF, BR, "R"));
-        System.out.println(moteurInference.chainageAvant(BF, BR, "F"));
+        //System.out.println(moteurInference.chainageAvant(BF, BR, "R"));
+        //System.out.println(moteurInference.chainageAvant(BF, BR, "F"));
 
-
+        //System.out.println(MoteurInference.chainageArriere(BF, BR, "R"));
+        System.out.println(MoteurInference.chainageArriere(BF, BR, "F"));
 
 
     }
